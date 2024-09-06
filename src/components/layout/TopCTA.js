@@ -9,12 +9,12 @@ const TopCTA = () => {
           <li>
             <CallIcon className="svg-icon" />
           </li>
-          <li>(505) 983-9774</li>
+          <li>(410) 571-5489</li>
           <li className="address-icon">
             <LocationIcon className="svg-icon" />
           </li>
           <li className="address-text">
-            208 W San Francisco St, Ste B, Santa Fe, NM 87501
+            216 Main st, Suite A, Annapolis, MD, 21401
           </li>
         </ul>
       </div>

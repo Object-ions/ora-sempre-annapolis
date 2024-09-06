@@ -1,13 +1,13 @@
 import Hero from '../components/Hero';
 import SecondInformative from '../components/SecondInformative';
 import TechnologySection from '../components/TechnologySection';
-import BestSeller from '../components/BestSeller';
+import FacialsComponent from '../components/FacialsComponent';
 
 const Home = () => {
   return (
     <div>
       <Hero />
-      <BestSeller />
+      <FacialsComponent />
       <TechnologySection />
       <SecondInformative />
     </div>

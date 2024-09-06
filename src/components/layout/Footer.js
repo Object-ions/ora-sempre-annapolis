@@ -5,17 +5,17 @@ const Footer = () => {
   return (
     <footer>
       <div className="footer">
-        <h2>KAMEA</h2>
+        <h2>Ora Sempre</h2>
         <div className="visit-us">
           <h3>Location</h3>
           <p>
-            208 W San Francisco St, Ste B
+            216 Main St, Ste A
             <br />
-            Santa Fe, NM 87501
+            Annapolis, MD 21401
           </p>
-          <p>(505) 983-9774</p>
+          <p>(410) 571-5489</p>
           <p>
-            Sun - Fri : 10 AM - 6 PM
+            Sun - Fri : 11 AM - 6 PM
             <br />
             Saturday : Closed
           </p>
@@ -23,13 +23,11 @@ const Footer = () => {
         <div className="footer-policies">
           <h3>Policies</h3>
           <Link to={'/privacy-policy'}>Privacy Policy</Link>
-          <Link to={'/shipping-policy'}>Shipping Policy</Link>
-          <Link to={'/return-policy'}>Return Policy</Link>
+          <Link to={'/return-policy'}>Return / Exchange Policy</Link>
           <Link to={'/store-hours'}>Store Hours</Link>
         </div>
         <div className="navigation">
           <h3>Menu</h3>
-          <Link to={'/profile'}>User Profile</Link>
           <Link to={'/collections'}>Skincare Collection</Link>
           <Link to={'/technology'}>Technology</Link>
           <Link to={'/treatments'}>Treatments</Link>

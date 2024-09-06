@@ -7,14 +7,12 @@ const SecondInformative = () => {
     <div className="second-informative">
       <div className="second-container">
         <div className="collection" style={{ backgroundImage: `url(${noni})` }}>
-          <p>EVERYDAY SKINCARE</p>
           <h3>NONI COLLECTION</h3>
           <Link to="/collection/noni" className="btn">
             EXPLORE COLLECTION
           </Link>
         </div>
         <div className="collection" style={{ backgroundImage: `url(${camu})` }}>
-          <p>SUPERFOOD INGREDIENTS</p>
           <h3>SKINCARE INFUSED</h3>
           <Link to="/ingredients" className="btn">
             EXPLORE INGREDIENTS

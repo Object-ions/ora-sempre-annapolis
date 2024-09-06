@@ -117,11 +117,7 @@ const Product = () => {
                   provider of the product.
                 </li>
                 <li>
-                  - Online purchases can only be made via the original provider.
-                  (www.avinichi.com){' '}
-                  <a href={link} alt={name} target="_blank" rel="noreferrer">
-                    [shop item online]
-                  </a>
+                  - Purchases can only be made in person
                 </li>
                 <li>
                   - <b>No refunds. Exchanges accepted within 14 days.</b>{' '}

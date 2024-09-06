@@ -28,7 +28,7 @@ const ShippingPolicy = () => {
             </a>
             .
           </p>
-          <p>Last Updated: April 2022</p>
+          <p>Last Updated: August 2024</p>
         </div>
       </div>
     </>

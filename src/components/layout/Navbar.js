@@ -27,13 +27,19 @@ const Navbar = () => {
         <div className="navbar-container">
           <div className="navbar-logo">
             <NavLink to="/" exact activeClassName="active">
-              <img src={logo} alt="Mineral Logo" className="logo" />
+              <img src='https://img1.wsimg.com/isteam/ip/091c9fa2-5c18-4a0c-b931-2d17c18ffb2c/blob.png' alt="Mineral Logo" className="logo" />
             </NavLink>
           </div>
           <button className="menu-toggle" onClick={toggleMenu}>
             <img src={!isOpen ? hamburger : close} alt="Menu" />
           </button>
           <nav className={`navbar-links ${isOpen ? 'open' : ''}`}>
+            <NavLink to="/" activeClassName="active">
+              Book a Facial
+            </NavLink>
+            <NavLink to="/about" activeClassName="active">
+              About
+            </NavLink>
             <NavLink to="/collections" activeClassName="active">
               Skincare
             </NavLink>
@@ -43,37 +49,8 @@ const Navbar = () => {
             <NavLink to="/treatments" activeClassName="active">
               Treatments
             </NavLink>
-            <NavLink to="/about" activeClassName="active">
-              About
-            </NavLink>
-            <NavLink to="/contact-us" activeClassName="active">
-              Contact Us
-            </NavLink>
           </nav>
           <div className={`navbar-profile ${isOpen ? 'open-inline' : ''}`}>
-            {user ? (
-              <NavLink to="/profile">{user.displayName}</NavLink>
-            ) : (
-              <>
-                <NavLink
-                  to="/sign-in"
-                  className={({ isActive }) =>
-                    isActive ? 'active' : undefined
-                  }
-                >
-                  Sign In
-                </NavLink>
-                <span>/</span>
-                <NavLink
-                  to="/sign-up"
-                  className={({ isActive }) =>
-                    isActive ? 'active' : undefined
-                  }
-                >
-                  Sign Up
-                </NavLink>
-              </>
-            )}
           </div>
         </div>
       </div>

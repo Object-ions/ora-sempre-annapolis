@@ -6,7 +6,7 @@ const PrivacyPolicy = () => {
 
         <p>
           This Privacy Policy outlines how we collect, use, and protect your
-          personal information when you visit our website kamea.netlify.app.
+          personal information when you visit our website orasempreannapolis.com.
         </p>
         <h3>Information We Collect</h3>
         <p>
@@ -56,7 +56,7 @@ const PrivacyPolicy = () => {
         <h3>Contact Us</h3>
         <p>
           If you have any questions or concerns regarding our Privacy Policy,
-          please contact us at santafe@kamea.online
+          please contact us at avinichics@gmail.com
         </p>
         <p>Last Updated: April, 2022</p>
       </div>
