@@ -26,7 +26,7 @@ a {
 }
 
 footer {
-  background-color: $blackColor;
+  background-color: #313F3C;
 }
 
 .page {
@@ -101,6 +101,10 @@ footer {
 }
 
 // *** Navbar *** //
+.navbar{
+  background: #D2D4CE;
+}
+
 .navbar-container {
   @include container-setup;
   display: flex;
@@ -140,17 +144,17 @@ footer {
 
 .topCTA {
   height: 3rem;
-  background-color: $whiteColor;
-
-  color: $blackColor;
-
+  background: #313F3C;
+  color: $whiteColor;
+  
   ul {
     margin: 0 1rem;
+    color: $whiteColor;
   }
-
+  
   a,
   li {
-    color: $blackColor;
+    color: $whiteColor;
     font-size: 0.85rem;
     margin: 0 0.25rem;
     line-height: 02rem;
@@ -675,6 +679,7 @@ footer {
 // *** Footer *** //
 .footer {
   @include container-setup;
+  background: #313F3C;
   color: $whiteColor;
   display: grid;
   grid-template-columns: repeat(4, 1fr);

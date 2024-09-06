@@ -37,9 +37,6 @@ const Navbar = () => {
             <NavLink to="/" activeClassName="active">
               Book a Facial
             </NavLink>
-            <NavLink to="/about" activeClassName="active">
-              About
-            </NavLink>
             <NavLink to="/collections" activeClassName="active">
               Skincare
             </NavLink>
@@ -48,6 +45,9 @@ const Navbar = () => {
             </NavLink>
             <NavLink to="/treatments" activeClassName="active">
               Treatments
+            </NavLink>
+            <NavLink to="/about" activeClassName="active">
+              About
             </NavLink>
           </nav>
           <div className={`navbar-profile ${isOpen ? 'open-inline' : ''}`}>
