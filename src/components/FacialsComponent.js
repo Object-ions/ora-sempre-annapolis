@@ -62,7 +62,7 @@ const FacialsComponent = () => {
               <h3>{product.title}</h3>
               <hr />
               <p>{product.description}</p>
-              <p>{product.price}</p>
+             
             </div>
           </Link>
         );
