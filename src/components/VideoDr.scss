@@ -2,6 +2,7 @@
 @import '../scss/mixins';
 
 .meet-dr-waite-section {
+  @include container-setup;
   display: flex;
   justify-content: space-between;
   align-items: center;
