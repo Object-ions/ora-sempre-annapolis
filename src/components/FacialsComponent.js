@@ -1,8 +1,11 @@
 import { Link } from 'react-router-dom';
-import microderm from '../assets/website-images/microderm.jpg'
-import bluelight from '../assets/website-images/blue-light.jpg'
-import redlight from '../assets/website-images/red-light.jpg'
-import microneedle from '../assets/website-images/microneedle.jpg'
+import microderm from '../assets/website-images/microderm.jpg';
+import bluelight from '../assets/website-images/blue-light.jpg';
+import redlight from '../assets/website-images/red-light.jpg';
+import microneedle from '../assets/website-images/microneedle.jpg';
+
+import './FacialsComponent.scss';
+
 const FacialsComponent = () => {
 
   const products = [
