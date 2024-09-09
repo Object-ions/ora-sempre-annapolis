@@ -6,9 +6,9 @@ import hamburger from '../../assets/svg/hamburger.svg';
 import close from '../../assets/svg/close.svg';
 
 const Navbar = () => {
+  // eslint-disable-next-line
   const [user, setUser] = useState(null);
   const [isOpen, setIsOpen] = useState(false);
-  const logo = '/images/logo.png';
 
   const toggleMenu = () => setIsOpen(!isOpen);
 

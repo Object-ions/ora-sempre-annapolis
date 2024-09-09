@@ -33,7 +33,7 @@ const TechnologyProduct = () => {
     return <Spinner />;
   }
 
-  const { description, image, name, price, provider, link } = product || {};
+  const { description, image, name, price, provider } = product || {};
 
   const copyLink = () => {
     navigator.clipboard.writeText(window.location.href);

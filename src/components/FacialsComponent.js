@@ -43,7 +43,7 @@ const FacialsComponent = () => {
       imageUrl:
         redlight,
       title: 'Anti-Aging with Red Light',
-      description: 'Our nonsurgical facelift is crafted to lift sagging skin and stimulate collagen production. This cutting-edge treatment reduces acne scars and improves blood circulation, giving your skin a healthier glow. You\'\ll enjoy a noticeably more youthful look without the recovery time of traditional surgery. Ideal for skin rejuvenation, this facelift offers a lasting, visible transformation.',
+      description: 'Our nonsurgical facelift is crafted to lift sagging skin and stimulate collagen production. This cutting-edge treatment reduces acne scars and improves blood circulation, giving your skin a healthier glow. You\'ll enjoy a noticeably more youthful look without the recovery time of traditional surgery. Ideal for skin rejuvenation, this facelift offers a lasting, visible transformation.',
       price: '$259',
     },
   ];

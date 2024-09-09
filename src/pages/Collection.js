@@ -53,7 +53,7 @@ export const Collection = () => {
         <h1>{params.collectionName.toUpperCase()} Collection</h1>
         {loading ? (
           <Spinner />
-        ) : collectionProducts.length > 0 ? (
+        ) : collectionProducts && collectionProducts.length > 0 ? ( // Check if collectionProducts is not null
           <>
             <ul className="collection-card">
               {collectionProducts.map((product) => (
@@ -66,7 +66,7 @@ export const Collection = () => {
             </ul>
           </>
         ) : (
-          <p>No products exists for {params.collectionName}</p>
+          <p>No products exist for {params.collectionName}</p>
         )}
         <div>
           <Link to="/collections">Go back to all collections</Link>

@@ -43,7 +43,6 @@ const Product = () => {
     price,
     size,
     use,
-    link,
   } = product || {};
 
   const copyLink = () => {
