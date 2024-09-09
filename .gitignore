@@ -25,3 +25,5 @@ yarn-error.log*
 
 # firebase
 # Firebase.config.js
+
+src/assets/videos/hero_video.mov
