@@ -1,4 +1,7 @@
 import aboutImage from '../assets/website-images/about.jpg';
+
+import './About.scss';
+
 const About = () => {
   return (
     <div className="about-page">
