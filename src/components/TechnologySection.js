@@ -40,9 +40,6 @@ const TechnologySection = () => {
             <p>$11,950</p>
           </Link>
         </div>
-        <Link to="/technology" className="btn">
-          <span style={{ color: '#fff' }}>Explore Technology</span>
-        </Link>
       </div>
     </div>
   );
