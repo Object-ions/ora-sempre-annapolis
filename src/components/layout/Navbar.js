@@ -5,6 +5,8 @@ import TopCTA from './TopCTA';
 import hamburger from '../../assets/svg/hamburger.svg';
 import close from '../../assets/svg/close.svg';
 
+import './Navbar.scss'
+
 const Navbar = () => {
   // eslint-disable-next-line
   const [user, setUser] = useState(null);
